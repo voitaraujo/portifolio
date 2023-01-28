@@ -1,0 +1,16 @@
+{
+  "jsxSingleQuote": true,
+  "useTabs": true,
+  "semi": true,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "organizeImportsSkipDestructiveCodeActions": false,
+  "plugins": [
+    "prettier-plugin-svelte",
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "pluginSearchDirs": false
+}
