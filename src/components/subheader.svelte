@@ -1,39 +1,23 @@
-<script lang='ts'>
-    import linkedin from "../assets/svg/linkedin.svg";
-    import mail from "../assets/svg/mail.svg";
+<script lang="ts">
+	import linkedin from '../assets/svg/linkedin.svg';
+	import mail from '../assets/svg/mail.svg';
 </script>
 
 <div
-    class="
-    flex flex-row justify-center items-center text-center flex-wrap
-    w-full pb-1
-    bg-teal-500
-    border-b-2
-    "
+	class="bg-teal-500pb-1 flex w-full flex-row flex-wrap items-center justify-center border-b-2 text-center "
 >
-    <a
-        href="mailto:voitilaaraujo@gmail.com"
-        class="
-        flex items-center 
-        whitespace-nowrap 
-        transition-all duration-150 ease-in-out
-         hover:text-blue-700 hover:underline
-        "
-    >
-        <img src={mail} alt="📧" class="h-5 mr-1" />voitilaaraujo@gmail
-    </a>
-    <a
-        href="https://www.linkedin.com/in/voitila-araujo/"
-        class="
-        flex items-center 
-        whitespace-nowrap 
-        ml-3 
-        transition-all duration-150 ease-in-out
-         hover:text-blue-700 hover:underline
-        "
-        target="_blank"
-        rel="noreferrer"
-    >
-        <img src={linkedin} alt="🔗" class="h-5 mr-1" />/voitila-araujo
-    </a>
+	<a
+		href="mailto:voitilaaraujo@gmail.com"
+		class="flex items-center whitespace-nowrap transition-all duration-150 ease-in-out hover:text-blue-700 hover:underline"
+	>
+		<img src={mail} alt="📧" class="mr-1 h-5" />voitilaaraujo@gmail
+	</a>
+	<a
+		href="https://www.linkedin.com/in/voitila-araujo/"
+		class="ml-3 flex items-center whitespace-nowrap transition-all duration-150 ease-in-out hover:text-blue-700 hover:underline"
+		target="_blank"
+		rel="noreferrer"
+	>
+		<img src={linkedin} alt="🔗" class="mr-1 h-5" />/voitila-araujo
+	</a>
 </div>
