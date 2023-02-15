@@ -41,18 +41,7 @@
     py-4
     "
 >
-	<!-- <div
-        class="
-    flex flex-col justify-between items-center sticky z-10 
-    bg-white rounded-md
-    h-24 w-[-380px] py-1 left-1/2 -translate-x-1/2
-    sm:h-28
-    "
-    >
-        <h6>Introduction</h6>
-        <p class="text-justify">Aqui vai uma pequena introdução sobre mim que não deve ser muito grande para não quebrar o layout da página</p>
-    </div> -->
-	<div class=" flex h-24 w-full animate-slide bg-slate-200 sm:h-28">
+	<div class=" flex items-center h-24 w-full animate-slide bg-slate-200 sm:h-28">
 		{#each icons as i}
 			<img
 				class="m-4 h-24 w-24 blur-sm transition-all hover:blur-none"
@@ -61,7 +50,7 @@
 			/>
 		{/each}
 	</div>
-	<div class=" flex h-24 w-full animate-slide bg-slate-200 sm:h-28">
+	<div class=" flex items-center h-24 w-full animate-slide bg-slate-200 sm:h-28">
 		{#each icons as i}
 			<img
 				class="m-4 h-24 w-24 blur-sm transition-all hover:blur-none"

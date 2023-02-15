@@ -1,0 +1,38 @@
+[
+	{
+		"projectName": "This portifólio",
+		"tecnologies": ["Typescript", "Svelte", "TailwindCSS", "Vite"],
+		"description": "Alguma breve descrição aqui sobre esse projeto e minha experiencia desenvolvendo e trabalhando no projeto no geral",
+		"projectImage": null,
+		"cardAlignment": "left",
+		"status": "ongoing",
+		"updatedAt": "20-01-2023"
+	},
+	{
+		"projectName": "KeepMyLink",
+		"tecnologies": ["Typescript", "NextJS", "SASS", "FaunaDB"],
+		"description": "Aplicação destinada a disponibilizar uma forma simples e anônima de salvar/compartilhar links sem ser preciso recorrer a uma aplicação robusta, como Notion, Obsidian ou o próprio bloco de notas do celular. Nela é feito o uso de um banco de dados online, não relacional, otimizado para trabalhar com aplicações SSR. Para obter a 'preview' de cada link, é feito o 'scrapping' na página destino com o uso de um headless browser.",
+		"projectImage": null,
+		"cardAlignment": "right",
+		"status": "ongoing",
+		"updatedAt": "06-10-2022"
+	},
+	{
+		"projectName": "Accountant",
+		"tecnologies": ["Typescript", "React Native", "RealmDB"],
+		"description": "Aplicativo desenvolvido por motivações pessoais, sua proposta é manter controle das finanças que possuem entradas e saídas de diversos centros de custo. No momento o desenvolvimento está pausado enquanto estudo uma opção de banco de dados alternativa.",
+		"projectImage": null,
+		"cardAlignment": "left",
+		"status": "standby",
+		"updatedAt": "13-09-2022"
+	},
+  {
+    "projectName": "SLWEB",
+    "tecnologies": ["Javascript", "ReactJS", "AdonisJS", "MUI", "MSSQL"],
+    "description": "Aplicação para gestão de uma franquia de máquinas automáticas de café, contando com vários módulos e dividida em um frontend & backend. Dentre as utilidades do projeto temos a geração de PDFs, Excels e QR codes, envio de e-mails em massa, compartilhamento de arquivos com base em 'roles', CRUD em múltiplos bancos de dados e consumo de APIs externas.",
+    "projectImage": "https://drive.google.com/uc?export=view&id=1l2Z0v7OtTYnD3p170LFzvdgYSvkPG0Yn",
+    "cardAlignment": "right",
+    "status": "finished",
+    "updatedAt": "17-05-2021"
+  }
+]

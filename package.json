@@ -27,5 +27,7 @@
 		"typescript": "4.9.4",
 		"vite": "4.0.0"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"moment": "^2.29.4"
+	}
 }

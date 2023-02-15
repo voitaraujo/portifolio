@@ -1,10 +1,13 @@
 export interface IExperience {
-	projectImage: string;
+	projectImage: string | null;
 	projectName: string;
 	tecnologies: ITecnologies[];
 	description: string;
-	titleColor?: string;
 	cardAlignment: 'right' | 'left';
+	status: 'finished' | 'standby' | 'ongoing';
+	updatedAt: Date;
+	titleColor?: string;
+	githubRepositoryLink?: string;
 }
 
 export type ITecnologies = IFront | IBack | IDB | IOthers;
